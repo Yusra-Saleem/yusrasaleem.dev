@@ -57,8 +57,8 @@ export const PROJECTS_DATA: ProjectItem[] = [
     screenshot: "/projects/resonance-churn.png",
     secondaryScreenshot: "/projects/resonance-churn.png",
     mockupStyle: "isometric-3d-tilted-deck",
-    liveUrl: "https://github.com/Yusra-Saleem",
-    githubUrl: "https://github.com/Yusra-Saleem"
+    liveUrl: "https://github.com/Yusra-Saleem/openai-agent-sdk",
+    githubUrl: "https://github.com/Yusra-Saleem/openai-agent-sdk"
   },
   {
     id: "ai-business-automation",
@@ -81,8 +81,8 @@ export const PROJECTS_DATA: ProjectItem[] = [
     screenshot: "/projects/agentia-cortex.png",
     mobileScreenshot: "/projects/agentia-cortex.png",
     mockupStyle: "laptop-with-mobile-duo",
-    liveUrl: "https://github.com/Yusra-Saleem",
-    githubUrl: "https://github.com/Yusra-Saleem"
+    liveUrl: "https://github.com/Yusra-Saleem/operator-one",
+    githubUrl: "https://github.com/Yusra-Saleem/operator-one"
   },
   {
     id: "car-dealership-saas",
@@ -108,8 +108,8 @@ export const PROJECTS_DATA: ProjectItem[] = [
     paperLeftScreenshot: "/projects/quantum-ledger.png",
     paperRightScreenshot: "/projects/quantum-ledger.png",
     mockupStyle: "laptop-with-floating-papers",
-    liveUrl: "https://github.com/Yusra-Saleem",
-    githubUrl: "https://github.com/Yusra-Saleem"
+    liveUrl: "https://github.com/Yusra-Saleem/elite-motors",
+    githubUrl: "https://github.com/Yusra-Saleem/elite-motors"
   },
   {
     id: "ai-book-docusaurus-rag",
@@ -132,7 +132,7 @@ export const PROJECTS_DATA: ProjectItem[] = [
     ],
     screenshot: "/projects/syntax-agent.png",
     mockupStyle: "curved-3d-cyber-hud",
-    liveUrl: "https://github.com/Yusra-Saleem",
-    githubUrl: "https://github.com/Yusra-Saleem"
+    liveUrl: "https://github.com/Yusra-Saleem/ai-robotics-book",
+    githubUrl: "https://github.com/Yusra-Saleem/ai-robotics-book"
   }
 ];
