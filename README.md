@@ -1,83 +1,108 @@
-# Yusra Saleem - AI Systems Architect & Full-Stack Console
+# Yusra Saleem - Portfolio & Engineering Console
 
-> Flagship portfolio web console for Yusra Saleem, positioned as an AI Systems Architect & Full-Stack Engineer specializing in Autonomous Multi-Agent Systems, WebRTC Voice AI, and Scalable Cloud Platforms.
+> Production codebase and architecture specification for [yusrasaleem.dev](https://yusrasaleem.dev) — an executive portfolio console showcasing autonomous multi-agent systems, deterministic RAG architectures, and production full-stack SaaS engineering.
+
+---
 
 ## 1. System Overview
 
-This repository houses the production codebase of [yusrasaleem.dev](https://yusrasaleem.dev), an engineering portfolio console built with Next.js 15 App Router, Tailwind CSS, and Framer Motion. Engineered for 120 FPS performance, accessibility, and clean cyber-minimalist aesthetics, it showcases flagship AI systems, interactive ROI calculators, and system architecture blueprints.
+[yusrasaleem.dev](https://yusrasaleem.dev) is an engineering console built with Next.js 15, React 19, Tailwind CSS, and Framer Motion. Designed with a custom Dark Forest & Emerald green theme (`#0B1F1D`, `#52D3A2`, `#7FAEA6`, `#E09A8D`), it delivers 60-120 FPS hardware-accelerated animations, zero-layout-shift responsive layouts, and an interactive multi-agent sandbox experience.
 
-## 2. Technical Architecture
+---
 
-```
-[ Global Visitors / Clients ]
-        │
-        ▼
-[ Edge CDN / Vercel Global Network ]
-        │
-        ▼
-[ Next.js 15 App Router Architecture ]
-        │
-        ├──▶ [ Dynamic 3D Laser Reveal & Interactive Canvas ]
-        ├──▶ [ Client ROI Calculator & Value Estimation Model ]
-        ├──▶ [ Project Showcase Matrix & Direct Repo Integrations ]
-        └──▶ [ OpenGraph & Twitter Card SEO Engine ]
-```
-
-### Technology Stack
-- **Framework:** Next.js 15 (React 19, App Router)
-- **Styling:** Tailwind CSS, PostCSS, Custom Cyber CSS Tokens
-- **Animations:** Framer Motion (60-120 FPS hardware-accelerated transitions)
-- **Typography:** Space Grotesk, Inter, Cormorant Garamond
-- **SEO & Social:** OpenGraph 1200x630 Social Cards, Dynamic MetadataBase
-- **CI/CD:** Automated GitHub Actions build validation pipeline
-
-## 3. Core Architectural Modules
-
-- **Interactive ROI Calculator:** Computes estimated operational savings and weekly engineering hours saved through AI agent automation.
-- **Cyber Laser Reveal Experience:** High-performance canvas-based intro animation revealing portfolio credentials.
-- **Direct GitHub Repository Integrations:** Featured project cards directly linked to live, open-source repositories (`openai-agent-sdk`, `operator-one`, `elite-motors`, `ai-robotics-book`).
-- **Comprehensive Metadata & Social Graph:** Production OpenGraph tags and Twitter large image cards for viral sharing across professional networks.
-
-## 4. Directory Structure
+## 2. Architecture & Design System
 
 ```
-yusrasaleem.dev/
-├── src/
-│   ├── app/                  # App Router layouts, pages, and OpenGraph images
-│   │   ├── layout.tsx        # Global metadata, font configurations, and body wrapper
-│   │   ├── page.tsx          # Master console page aggregating all system sections
-│   │   ├── opengraph-image.png # Dynamic OpenGraph social preview card
-│   │   └── twitter-image.png   # Dynamic Twitter preview card
-│   ├── components/           # Custom modular UI widgets and interactive sections
-│   │   ├── LaserRevealScreen.tsx  # Canvas laser intro animation
-│   │   ├── RoiCalculator.tsx      # Interactive operational ROI estimation model
-│   │   ├── Projects.tsx           # Flagship systems showcase matrix
-│   │   └── Contact.tsx            # Direct consultation inquiry channels
-│   └── data/
-│       └── projectsData.ts   # Domain models and verified GitHub repository URLs
-├── public/                   # Static OpenGraph banners, project screenshots, and brand assets
-└── package.json              # Project dependencies and build scripts
+[ Global Clients / Enterprise Visitors ]
+                 │
+                 ▼
+     [ Vercel Global Edge Network ]
+                 │
+                 ▼
+     [ Next.js 15 App Router Core ]
+                 │
+  ┌──────────────┼──────────────┬──────────────┐
+  ▼              ▼              ▼              ▼
+[ Navigation ] [ Page Sections ] [ UI Engine ] [ Projects Data ]
+• Navbar       • Hero           • Infinite     • Verified
+• TopNavbar    • Manifesto        Slider         Case Studies
+               • Sandbox        • Interactive  • Tech Stacks
+               • Services         Buttons
+               • What I Build   • Robot Mascot
+               • Projects
+               • Brand Reveal
+               • Testimonials
+               • Contact
 ```
 
-## 5. Local Development Execution
+### Core Architecture & Technical Stack
+- **Framework:** Next.js 15 (React 19, App Router, Turbopack)
+- **Styling & Theme:** Tailwind CSS with custom Dark Forest palette tokens
+- **Animation Engine:** Framer Motion (GPU hardware-accelerated scroll sequences and spring physics)
+- **Typography:** Space Grotesk (Display), Inter (Body & UI), Cormorant Garamond (Serif Accents)
+- **Metadata & SEO:** Edge-rendered OpenGraph 1200x630 social preview cards, Twitter cards, and structured semantic HTML
+- **CI/CD Pipeline:** Automated GitHub Actions build validation and static deployment pipeline
 
-```bash
-git clone https://github.com/Yusra-Saleem/yusrasaleem.dev.git
-cd yusrasaleem.dev
+---
 
-npm install
-npm run dev
+## 3. Modular Engineering Structure
+
+```text
+src/
+├── app/                  # App Router layouts, metadata, and master console view
+│   ├── layout.tsx        # Global SEO, font variables, and theme wrappers
+│   ├── page.tsx          # Single-page console aggregating modular sections
+│   └── globals.css       # Tailwind CSS custom color tokens & animations
+│
+├── components/           # Modular component architecture
+│   ├── navigation/       # Top navigation bars & status indicators
+│   │   ├── Navbar.tsx
+│   │   └── TopNavbar.tsx
+│   │
+│   ├── sections/         # High-level page sections
+│   │   ├── Hero.tsx          # Overview introduction & verified credentials
+│   │   ├── Manifesto.tsx     # Systems engineering philosophy
+│   │   ├── About.tsx         # Interactive agent sandbox
+│   │   ├── Services.tsx      # Solutions provided matrix
+│   │   ├── WhatIBuild.tsx    # Technical deployment capabilities & slider
+│   │   ├── Projects.tsx      # Flagship systems case studies
+│   │   ├── BrandReveal.tsx   # Visual brand showcase
+│   │   ├── Testimonials.tsx  # Verified client outcomes & metrics
+│   │   └── Contact.tsx       # Direct consultation console
+│   │
+│   └── ui/               # Reusable UI primitives
+│       ├── CuteRobot.tsx         # Interactive mascot canvas
+│       ├── InfiniteSlider.tsx    # High-performance marquee slider
+│       └── InteractiveButton.tsx # Themed interactive CTA button
+│
+├── data/
+│   └── projects.ts       # Domain data models & case study metrics
+│
+└── lib/
+    └── utils.ts          # Classnames & Tailwind merge utility
 ```
 
-Visit [http://localhost:3000](http://localhost:3000) to view the console locally.
+---
 
-## 6. Author and Contact
+## 4. Key Engineering Highlights
 
-- **Name:** Yusra Saleem
-- **Title:** AI Systems Architect & Full-Stack Engineer
-- **Official Domain:** [https://yusrasaleem.dev](https://yusrasaleem.dev)
-- **LinkedIn:** [linkedin.com/in/yusrasaleem-developer](https://www.linkedin.com/in/yusrasaleem-developer)
-- **Twitter/X:** [@Yusra96215](https://twitter.com/Yusra96215)
-- **License:** Licensed under the [MIT License](LICENSE).
-<!-- timeline-sync -->
-<!-- updated: 2026-11-26T14:08:40Z -->
+- **Interactive Agent Sandbox:** Live interactive visual interface demonstrating autonomous multi-agent task execution, tool calling, and deterministic state transitions.
+- **Hardware-Accelerated Marquee Slider:** Seamless, continuous 120 FPS infinite carousel showcasing deployment capabilities without layout jank.
+- **Enterprise Case Study Showcase:** Structured technical deep-dives into production systems (`operator-one`, `openai-agent-sdk`, `elite-motors`, `ai-robotics-book`) with verified architecture diagrams, technical stacks, and performance metrics.
+- **Clean Responsive Architecture:** Engineered from mobile to ultra-wide displays with strict accessibility, keyboard navigation, and theme consistency.
+
+---
+
+## 5. Author & Credentials
+
+- **Engineer:** Yusra Saleem
+- **Specialization:** Full Stack & AI Systems Engineer
+- **Live Production URL:** [https://yusrasaleem.dev](https://yusrasaleem.dev)
+- **LinkedIn:** [linkedin.com/in/yusra-saleem-dev](https://www.linkedin.com/in/yusra-saleem-dev)
+- **X (Twitter):** [x.com/yusrasaleem_dev](https://x.com/yusrasaleem_dev)
+- **GitHub:** [github.com/Yusra-Saleem](https://github.com/Yusra-Saleem)
+- **Direct Email:** [yusrasaleem679@gmail.com](mailto:yusrasaleem679@gmail.com)
+
+---
+
+&copy; 2026 Yusra Saleem. Released under the [MIT License](LICENSE).
