@@ -62,14 +62,10 @@ yusrasaleem.dev/
 ## 5. Local Development Execution
 
 ```bash
-# Clone the repository
 git clone https://github.com/Yusra-Saleem/yusrasaleem.dev.git
 cd yusrasaleem.dev
 
-# Install dependencies
 npm install
-
-# Start development server
 npm run dev
 ```
 
