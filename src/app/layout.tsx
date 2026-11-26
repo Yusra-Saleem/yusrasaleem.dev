@@ -59,7 +59,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Yusra Saleem | AI Systems Architect & Full-Stack Engineer",
     description: "Autonomous Agent Swarms, Low-Latency WebRTC Voice AI, and Production SaaS Platforms.",
-    creator: "@Yusra96215",
+    creator: "@yusrasaleem_dev",
     images: ["/og-image.png"],
   },
   robots: {

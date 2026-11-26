@@ -213,7 +213,7 @@ export default function Contact() {
                 </a>
 
                 <a
-                  href="https://www.instagram.com/yusra_saleem.dev/"
+                  href="https://www.instagram.com/yusrasaleem.dev/"
                   target="_blank"
                   rel="noreferrer"
                   className="flex-1 py-2 px-2.5 bg-[#0B1F1D]/40 border border-white/10 hover:border-[#E09A8D]/40 rounded-md text-center text-xs font-mono text-foreground/80 hover:text-[#E09A8D] transition-colors flex items-center justify-center gap-1.5"
