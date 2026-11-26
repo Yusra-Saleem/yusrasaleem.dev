@@ -2,17 +2,17 @@
 
 import React from "react";
 
-import TopNavbar from "@/components/TopNavbar";
-import Navbar from "@/components/Navbar";
-import Hero from "@/components/Hero";
-import Manifesto from "@/components/Manifesto";
-import About from "@/components/About";
-import Services from "@/components/Services";
-import WhatIBuild from "@/components/WhatIBuild";
-import Projects from "@/components/Projects";
-import BrandReveal from "@/components/BrandReveal";
-import Testimonials from "@/components/Testimonials";
-import Contact from "@/components/Contact";
+import TopNavbar from "@/components/navigation/TopNavbar";
+import Navbar from "@/components/navigation/Navbar";
+import Hero from "@/components/sections/Hero";
+import Manifesto from "@/components/sections/Manifesto";
+import About from "@/components/sections/About";
+import Services from "@/components/sections/Services";
+import WhatIBuild from "@/components/sections/WhatIBuild";
+import Projects from "@/components/sections/Projects";
+import BrandReveal from "@/components/sections/BrandReveal";
+import Testimonials from "@/components/sections/Testimonials";
+import Contact from "@/components/sections/Contact";
 
 export default function Page() {
   return (

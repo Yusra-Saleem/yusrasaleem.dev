@@ -3,8 +3,8 @@
 import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { ArrowUpRight, ChevronDown, Check } from "lucide-react";
-import InteractiveButton from "./InteractiveButton";
-import { InfiniteSlider } from "@/components/ui/infinite-slider";
+import InteractiveButton from "@/components/ui/InteractiveButton";
+import { InfiniteSlider } from "@/components/ui/InfiniteSlider";
 
 interface BuildCapability {
   id: string;

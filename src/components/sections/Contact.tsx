@@ -19,8 +19,8 @@ import {
   Layers,
   Globe
 } from "lucide-react";
-import InteractiveButton from "./InteractiveButton";
-import CuteRobot from "./CuteRobot";
+import InteractiveButton from "@/components/ui/InteractiveButton";
+import CuteRobot from "@/components/ui/CuteRobot";
 
 export default function Contact() {
   const [copiedEmail, setCopiedEmail] = useState(false);

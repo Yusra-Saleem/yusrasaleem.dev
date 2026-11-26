@@ -10,8 +10,8 @@ import {
   ExternalLink,
 } from "lucide-react";
 
-import { PROJECTS_DATA, ProjectItem, TechStackItem } from "../data/projectsData";
-import InteractiveButton from "./InteractiveButton";
+import { PROJECTS_DATA, ProjectItem, TechStackItem } from "@/data/projects";
+import InteractiveButton from "@/components/ui/InteractiveButton";
 
 export default function Projects() {
   const [projects] = useState<ProjectItem[]>(PROJECTS_DATA);

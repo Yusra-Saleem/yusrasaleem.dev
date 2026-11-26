@@ -25,13 +25,13 @@ export const metadata: Metadata = {
     default: "Yusra Saleem | AI Systems Architect & Full-Stack Engineer",
     template: "%s | Yusra Saleem",
   },
-  description: "Yusra Saleem builds autonomous agent swarms, sub-280ms WebRTC voice AI, and scalable production SaaS platforms.",
+  description: "Yusra Saleem builds autonomous agent swarms, autonomous multi-agent workflow systems, and scalable production SaaS platforms.",
   keywords: [
     "Yusra Saleem",
     "AI Systems Architect",
     "Autonomous Agents",
     "OpenAI Agents SDK",
-    "WebRTC Voice AI",
+    "Multi-Agent Swarms",
     "Full-Stack Engineer",
     "Next.js 15",
     "FastAPI",
@@ -44,7 +44,7 @@ export const metadata: Metadata = {
     locale: "en_US",
     url: "https://yusrasaleem.dev",
     title: "Yusra Saleem | AI Systems Architect & Full-Stack Engineer",
-    description: "Systems engineer specializing in autonomous agent swarms, sub-280ms WebRTC voice AI, and scalable production SaaS.",
+    description: "Systems engineer specializing in autonomous agent swarms, deterministic RAG pipelines, and scalable production SaaS.",
     siteName: "Yusra Saleem Console",
     images: [
       {
@@ -58,7 +58,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Yusra Saleem | AI Systems Architect & Full-Stack Engineer",
-    description: "Autonomous Agent Swarms, Low-Latency WebRTC Voice AI, and Production SaaS Platforms.",
+    description: "Autonomous Agent Swarms, Deterministic RAG, and Production SaaS Platforms.",
     creator: "@yusrasaleem_dev",
     images: ["/og-image.png"],
   },

@@ -37,20 +37,20 @@ export interface ProjectItem {
 export const PROJECTS_DATA: ProjectItem[] = [
   {
     id: "voice-ai-assistant",
-    titlePart1: "VOICE AI",
+    titlePart1: "ENTERPRISE AI",
     titlePart2: "BUSINESS ASSISTANT",
-    category: "REALTIME VOICE AI • AGENTIC SYSTEM",
+    category: "MULTI-AGENT SYSTEM • WORKFLOW AUTOMATION",
     problem: "Manual data entry and multi-step reporting via slow text interfaces cause operator delays.",
-    solution: "Real-time voice AI agent executing tasks and generating reports over WebRTC audio in sub-280ms.",
+    solution: "Real-time voice AI agent executing tasks and generating reports via autonomous multi-agent task execution and async event streaming.",
     metrics: [
-      { label: "STREAM LATENCY", value: "<280ms", sub: "WebRTC Realtime Audio" },
+      { label: "STREAM LATENCY", value: "<280ms", sub: "Event-Driven Async Engine" },
       { label: "CALL COMPLETION", value: "99.4%", sub: "Zero Conversational Lag" },
       { label: "TOOL EXECUTION", value: "100%", sub: "PostgreSQL Async Verification" },
     ],
     techStack: [
       { name: "PostgreSQL", iconName: "Database", color: "#336791" },
       { name: "FastAPI", iconName: "Zap", color: "#58B69B" },
-      { name: "WebRTC", iconName: "Activity", color: "#58B69B" },
+      { name: "Multi-Agent Swarms", iconName: "Activity", color: "#58B69B" },
       { name: "OpenAI Agents SDK", iconName: "Cpu", color: "#52D3A2" },
       { name: "Next.js", iconName: "Globe", color: "#0070F3" }
     ],

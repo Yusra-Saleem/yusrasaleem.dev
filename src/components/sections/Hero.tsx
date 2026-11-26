@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import Image from "next/image";
-import InteractiveButton from "./InteractiveButton";
+import InteractiveButton from "@/components/ui/InteractiveButton";
 
 /* ─── Design tokens ──────────────────────────────────────────────────────────── */
 const C = { accent: "#E09A8D", secondary: "#7FAEA6", bg: "#0B1F1D", deep: "#030C0B" };
