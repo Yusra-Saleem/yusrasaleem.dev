@@ -81,7 +81,7 @@ export default function Page() {
           <div className="flex items-center gap-5 text-[11px] uppercase tracking-widest font-bold">
             <a href="https://github.com/Yusra-Saleem" target="_blank" rel="noreferrer" className="hover:text-[#7FAEA6] transition-colors">GitHub</a>
             <span className="text-secondary/30">•</span>
-            <a href="https://linkedin.com/in/yusra-saleem" target="_blank" rel="noreferrer" className="hover:text-[#7FAEA6] transition-colors">LinkedIn</a>
+            <a href="https://linkedin.com/in/yusra-saleem-dev" target="_blank" rel="noreferrer" className="hover:text-[#7FAEA6] transition-colors">LinkedIn</a>
             <span className="text-secondary/30">•</span>
             <a href="mailto:yusrasaleem679@gmail.com" className="hover:text-[#E09A8D] transition-colors">Email</a>
           </div>

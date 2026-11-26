@@ -193,7 +193,7 @@ export default function Contact() {
 
               <div className="flex items-center gap-2">
                 <a
-                  href="https://linkedin.com/in/yusra-saleem"
+                  href="https://linkedin.com/in/yusra-saleem-dev"
                   target="_blank"
                   rel="noreferrer"
                   className="flex-1 py-2 px-2.5 bg-[#0B1F1D]/40 border border-white/10 hover:border-white/30 rounded-md text-center text-xs font-mono text-foreground/80 hover:text-white transition-colors flex items-center justify-center gap-1.5"
